@@ -8,3 +8,78 @@ img {
     display: table;
     clear: both;
   }
+
+
+  html, body {
+    width: 100%;
+    font-family: helvetica;
+  }
+  
+  .site-header {
+    background: yellow;
+    padding: 1.5%;
+  }
+  
+  ul {
+    /* this is a hack for collapsing space between inline block elements */
+    font-size: 0;
+  }
+  
+  li {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    list-style: none;
+    display: inline-block;
+    padding: 1%;
+    /* border: 2px solid black;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%; */
+  }
+
+  @media only screen and (max-width: 640px)
+  {li
+  {border-bottom: gray solid 1px;
+    display: block;
+  }
+  }
+  
+  a {
+    text-decoration: none;
+    color: #71f;
+  }
+  
+  .nav-ul {
+      width: 100%;
+    display: none;
+  }
+
+  #nav-menu {
+      float: left;
+      padding: 0;
+  }
+  
+  .hamburger {
+    display: block;
+    font-size: 3rem;
+  }
+  
+  #ham-menu {
+      float: right;
+  }
+  nav:hover .nav-ul {
+    display: block;
+  } 
+  
+  @media only screen and (min-width: 640px) {
+    .nav-ul {
+      display: block;
+    }
+    /* li {
+        border-bottom: gray solid 1px;
+    } */
+    .hamburger {
+      display: none;
+    }
+
+  
+  }
