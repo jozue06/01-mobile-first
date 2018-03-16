@@ -1,0 +1,10 @@
+img {
+    float: right;
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
