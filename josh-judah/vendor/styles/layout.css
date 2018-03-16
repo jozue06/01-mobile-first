@@ -74,12 +74,10 @@ img {
     .nav-ul {
       display: block;
     }
-    /* li {
-        border-bottom: gray solid 1px;
-    } */
     .hamburger {
       display: none;
     }
-
-  
+  }
+  .byline  address {
+    display: inline-block;
   }
